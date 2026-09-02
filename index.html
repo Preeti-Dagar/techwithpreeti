@@ -396,22 +396,39 @@
               <div class="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label class="text-xs font-bold uppercase tracking-wide">Name</label>
-                  <input required type="text" placeholder="Your name" class="mt-2 w-full rounded-xl bg-[#FCF8FA] border border-amethyst/10 px-4 py-3.5 outline-none focus:border-berry transition">
-                </div>
+                 <input
+  required
+  type="text"
+  name="name"
+  placeholder="Your name"
+  class="mt-2 w-full rounded-xl bg-[#FCF8FA] border border-amethyst/10 px-4 py-3.5 outline-none"
+/>
                 <div>
                   <label class="text-xs font-bold uppercase tracking-wide">Email</label>
-                  <input required type="email" placeholder="you@email.com" class="mt-2 w-full rounded-xl bg-[#FCF8FA] border border-amethyst/10 px-4 py-3.5 outline-none focus:border-berry transition">
+                <input
+  required
+  type="email"
+  name="email"
+  placeholder="you@email.com"
+  class="mt-2 w-full rounded-xl bg-[#FCF8FA] border border-amethyst/10 px-4 py-3.5 outline-none"
+/>
                 </div>
               </div>
               <div class="mt-4">
                 <label class="text-xs font-bold uppercase tracking-wide">Service</label>
-                <select class="mt-2 w-full rounded-xl bg-[#FCF8FA] border border-amethyst/10 px-4 py-3.5 outline-none focus:border-berry transition">
+               <select name="service" class="mt-2 w-full ...">
                   <option>Graphic Design</option><option>Digital Marketing</option><option>Brand Identity</option><option>Social Media Creatives</option><option>YouTube Design</option>
                 </select>
               </div>
               <div class="mt-4">
                 <label class="text-xs font-bold uppercase tracking-wide">Project details</label>
-                <textarea required rows="5" placeholder="Tell me a little about your project..." class="mt-2 w-full rounded-xl bg-[#FCF8FA] border border-amethyst/10 px-4 py-3.5 outline-none focus:border-berry transition resize-none"></textarea>
+               <textarea
+  required
+  name="message"
+  rows="5"
+  placeholder="Tell me a little about your project..."
+  class="mt-2 w-full ..."
+></textarea>
               </div>
               <button class="mt-5 w-full rounded-xl bg-amethyst text-white py-4 font-bold hover:bg-indigo hover:-translate-y-0.5 transition">Send inquiry ↗</button>
               <p id="formMessage" class="hidden mt-3 text-center text-sm text-berry font-semibold">Thanks!</p>
